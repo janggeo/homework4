@@ -20,7 +20,7 @@ int subtraction_matrix(int** matrix_a, int** matrix_b, int row, int col);
 /* matrix_axt = matrix_a x matrix_t */
 int multiply_matrix(int** matrix_a, int** matrix_t, int row, int col);
 
-int check=0; // 초기화 했는지 검사하는 변수
+int check; // 초기화 했는지 검사 변수
 
 int main(void)
 {
